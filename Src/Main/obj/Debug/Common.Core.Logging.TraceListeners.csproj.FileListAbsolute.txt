@@ -1,5 +1,0 @@
-C:\DevSource\Tamu\GeoInnovation\Common\Core\Logging.TraceListeners\Src\Main\obj\Debug\Common.Core.Logging.TraceListeners.csprojResolveAssemblyReference.cache
-C:\DevBuild\Tamu\GeoInnovation\Common\Core\Logging.TraceListeners\build\1.0.0\debug\Tamu.GeoInnovation.Common.Core.Logging.TraceListeners.dll
-C:\DevBuild\Tamu\GeoInnovation\Common\Core\Logging.TraceListeners\build\1.0.0\debug\Tamu.GeoInnovation.Common.Core.Logging.TraceListeners.pdb
-C:\DevSource\Tamu\GeoInnovation\Common\Core\Logging.TraceListeners\Src\Main\obj\Debug\Tamu.GeoInnovation.Common.Core.Logging.TraceListeners.dll
-C:\DevSource\Tamu\GeoInnovation\Common\Core\Logging.TraceListeners\Src\Main\obj\Debug\Tamu.GeoInnovation.Common.Core.Logging.TraceListeners.pdb

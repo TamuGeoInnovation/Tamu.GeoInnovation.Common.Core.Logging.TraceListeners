@@ -1,3 +1,0 @@
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Logging\build\v1.1\bin\AnyCPU\release\USC.GISResearchLab.Common.Core.Logging.dll
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Logging\src\obj\Release\Common.Core.Logging.csprojResolveAssemblyReference.cache
-C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Core.Logging\src\obj\Release\USC.GISResearchLab.Common.Core.Logging.dll
