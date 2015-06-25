@@ -125,7 +125,6 @@
     <ProjectReference Include="..\..\..\Common.Core.Files.FileStreams\Src\Main\Common.Core.Files.FileStreams.Dev.csproj">
       <Project>{8B0E3FBE-3290-43D4-97FA-C7E8569F5622}</Project>
       <Name>Common.Core.Files.FileStreams.Dev</Name>
-      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Files\Src\Main\Common.Core.Files.Dev.csproj">
       <Project>{0FF43F5C-9E8B-4010-A805-8C54EF43E511}</Project>
