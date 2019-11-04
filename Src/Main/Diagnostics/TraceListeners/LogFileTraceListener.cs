@@ -1,11 +1,11 @@
+using System;
 using System.Diagnostics;
 using System.IO;
 using USC.GISResearchLab.Common.Utils.Files;
-using System;
 
 namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
 {
-    public class LogFileTraceListener: TextWriterTraceListener
+    public class LogFileTraceListener : TextWriterTraceListener
     {
 
         #region Properties
@@ -25,16 +25,16 @@ namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
         public LogFileTraceListener(TextWriter writer, string name, string baseNameSpace) : base(writer, name) { BaseNameSpace = baseNameSpace; }
         public LogFileTraceListener(TextWriter writer, string baseNameSpace) : base(writer) { BaseNameSpace = baseNameSpace; }
 
-        public LogFileTraceListener(string fileName, string name, string baseNameSpace) : base(fileName, name) 
+        public LogFileTraceListener(string fileName, string name, string baseNameSpace) : base(fileName, name)
         {
             if (!FileUtils.FileExists(fileName))
             {
                 FileUtils.CreateTextFile(fileName);
             }
-            BaseNameSpace = baseNameSpace; 
+            BaseNameSpace = baseNameSpace;
         }
 
-        public LogFileTraceListener(string fileName, string baseNameSpace) : base(fileName) 
+        public LogFileTraceListener(string fileName, string baseNameSpace) : base(fileName)
         {
             if (!String.IsNullOrEmpty(fileName))
             {
@@ -65,5 +65,5 @@ namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
                 }
             }
         }
-	}
+    }
 }

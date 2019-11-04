@@ -7,14 +7,15 @@ using System.Text;
 
 namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
 {
-    public class CustomTraceListener: TextWriterTraceListener { 
-	
-		// for our constructors, explicitly call the base class constructor.
+    public class CustomTraceListener : TextWriterTraceListener
+    {
+
+        // for our constructors, explicitly call the base class constructor.
         public CustomTraceListener(Stream stream, string name) : base(stream, name) { }
         public CustomTraceListener(Stream stream) : base(stream) { }
         public CustomTraceListener(string fileName, string name) : base(fileName, name) { }
         public CustomTraceListener(string fileName) : base(fileName) { }
-		public CustomTraceListener( TextWriter writer, string name ) : base(writer, name) { }
+        public CustomTraceListener(TextWriter writer, string name) : base(writer, name) { }
         public CustomTraceListener(TextWriter writer) : base(writer) { }
 
 
@@ -78,5 +79,5 @@ namespace USC.GISResearchLab.Common.Diagnostics.TraceListeners
             return preamble.ToString();
 
         }
-	}
+    }
 }
